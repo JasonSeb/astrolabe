@@ -2,14 +2,15 @@
 # Author  : Jason Connie
 # Created : Feb 2025
 
-This code generates the climate plate of an astrolabe. It is also known as the plate, the climate or the tympan (Latin: tabula, Arabic: safiha). 
+This code generates the climate plate of an astrolabe. 
+It is also known as the plate, the climate or the tympan (Latin: tabula, Arabic: safiha). 
 The outputted file is saved as 'plate.py'.
 
 When running the code from terminal, place the latitude (in degrees) a space after the file-name. 
 If using Python 3, 
      'python3 climate_plate.py 45.2'
 would generate a plate for a latitude 45.2 degrees either North or South of the equator. 
-A preferred latitude can also be placed directly into the code at line 44. 
+A preferred latitude can also be placed directly into the code at line 46. 
 If no latitude is given, the program defaults to South Africa.
 
 The latitude should always be positive, from 0 to 90. This is regardless of the hemisphere. 
