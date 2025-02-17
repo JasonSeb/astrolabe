@@ -57,10 +57,10 @@ if __name__=="__main__":
     """ Basic set-up: line width to be drawn, plot size, and Cairo details """
     """####################################################################"""
     
-    almucantar_increment = 2.5
+    almucantar_increment = 2   # 2.5
     outer_radius  = 125
     thick_line    = 0.8
-    medium_line   = 0.575#0.55
+    medium_line   = 0.575      # 0.55
     thin_line     = 0.15
 
     width         = int(2.3*outer_radius) # The width and height of the plot
